@@ -13,4 +13,6 @@ const Vector = {
   }
 }
 
-console.log(Vector.distance([1,1], [0,0]))
+// console.log(Vector.distance([1,1], [0,0]))
+
+module.exports = Vector
