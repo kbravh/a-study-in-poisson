@@ -9,7 +9,7 @@ const Vector = {
     if(vector1.length !== vector2.length){
       throw new Error('Cannot find distance between vectors of different lengths')
     }
-    return Math.sqrt(vector1.reduce((sum, element, index) => sum + (element - vector2[index]) ** 2))
+    return Math.sqrt(vector1.reduce((sum, element, index) => sum + (element - vector2[index]) ** 2, 0))
   }
 }
 
